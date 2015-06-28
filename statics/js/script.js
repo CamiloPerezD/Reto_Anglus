@@ -195,7 +195,7 @@ function mover(e)	{
 							document.getElementById("total").innerHTML=parseInt(document.getElementById("total").innerHTML)-10;
 						}, 1000);					
 					}else{
-						document.getElementById("animal").innerHTML="PERDIÓ :(";
+						document.getElementById("animal").innerHTML="PERDIÓ";
 						crearBotonReinicio();
 						estado=true;
 					}
