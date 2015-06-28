@@ -1,0 +1,40 @@
+
+header{
+	width: 100%;
+	height: 130px;
+	background-color: #4D4F4E;
+}
+.texto{
+	width: 20%;
+	height: 80%;
+	margin-left: 10%;
+	margin-top: 0.9%;
+	font-size: 4em;
+	font-family: "Homer Simpson", cursive;
+	border-radius: 30px; 
+	background-color: #F4A548;
+	text-align: center;
+	padding-top: 0.5%;
+	color:white;
+}
+#interaccion{
+	width: 100%;
+	height: 575px;
+	background-color: #8CFFC2;
+}
+#personaje{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+#reiniciar{
+	width: 8%;
+	height: 100%;
+	border-radius: 10px;
+	margin-left: 1.5%;
+	font-size: 1.5em;
+	font-family: "Homer Simpson", cursive;
+	background-color: #3E9CD9;
+	border: 0px solid #3E9CD9;
+	color:white;
+}
