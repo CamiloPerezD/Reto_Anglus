@@ -61,7 +61,7 @@ function ubicarPersonaje(){
 	document.getElementById("personaje").style.marginLeft =((ancho/2)-(anchoImg/2))+"px";
 }
 function asignarPosicion(){	
-	var left= Math.floor(Math.random()*1262);
+	var left= Math.floor(Math.random()*((document.getElementById("interaccion").clientWidth)-(document.getElementById("personaje").clientWidth)-10));
 	var top= Math.floor(Math.random()*471);
 	return [top,left];
 }
@@ -126,7 +126,6 @@ function aliminarAnimal(imagen){
 	}
 	var index=palabras.indexOf(imagen);
 	palabras.splice(index,1);
-	a=[];
 }
 function mover(e)	{
 	if (!estado) {
